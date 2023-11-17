@@ -19,10 +19,12 @@ import { PiShoppingCartLight } from 'react-icons/pi';
 
 export default function Close() {
 	return (
-		<Box w={'full'} px={28} py={10}>
-			<Box w={'full'} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
-				<Heading>Новые рисунки </Heading>
-				<HStack gap={10}>
+		<Box w={'full'} px={{ base: '20px', lg: '28' }} py={10}>
+			<Box w={'full'} display={'flex'} justifyContent={'space-between'} alignItems={'center'} flexWrap={'wrap'}>
+				<Heading fontSize={{ base: '20px', sm: 'xl', xl: '2xl' }} px={{ base: '32px' }}>
+					Новые рисунки{' '}
+				</Heading>
+				<HStack gap={10} py={{ base: 4, xl: 0 }}>
 					<Text color={'gray.400'}>Сортировать:</Text>
 					<Button colorScheme={'facebook'} variant={'outline'} color={'black'}>
 						Цена повозрастанию
@@ -30,7 +32,7 @@ export default function Close() {
 				</HStack>
 			</Box>
 
-			<Box w={'full'} display={'flex'} justifyContent={'space-evenly'} alignItems={'center'} pt={20}>
+			<Box w={'full'} display={'flex'} justifyContent={'space-evenly'} alignItems={'center'} pt={20} flexWrap={'wrap'}>
 				<Card maxW='250px'>
 					<Link href='/closePage'>
 						<Box borderRadius='lg'>
@@ -123,7 +125,7 @@ export default function Close() {
 				</Card>
 			</Box>
 
-			<Box w={'full'} display={'flex'} justifyContent={'space-evenly'} alignItems={'center'} pt={20}>
+			<Box w={'full'} display={'flex'} justifyContent={'space-evenly'} alignItems={'center'} pt={20} flexWrap={'wrap'}>
 				<Card maxW='250px'>
 					<Link href='/closePage'>
 						<Box borderRadius='lg'>
