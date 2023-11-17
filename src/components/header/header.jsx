@@ -19,7 +19,7 @@ export default function Header() {
 				py={10}
 				px={{ base: '10px', sm: '20px', lg: '23px', xl: '110px' }}
 			>
-				<Box>
+				<Box color={'white'}>
 					<Heading fontWeight={'400'} fontSize={{ base: '2xl', lg: '3xl', xl: '5xl' }}>
 						Pattern Print
 					</Heading>
@@ -86,7 +86,7 @@ export default function Header() {
 						<PiArrowBendDoubleUpRightBold size={'28'} />
 					</HStack>
 				</HStack>
-				<Box>
+				<Box color={'white'}>
 					<Heading display={{ base: 'none', lg: 'flex' }} fontWeight={'500'}>
 						Project title
 					</Heading>

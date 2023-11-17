@@ -18,7 +18,7 @@ export default function Sidebar() {
 				gap={4}
 				cursor={'pointer'}
 			>
-				<HStack flexDirection={'column'}>
+				<HStack flexDirection={'column'} color={'white'}>
 					<SiAffinitydesigner size={'20'} />
 					<Text fontSize={'sm'}>Designer</Text>
 				</HStack>
