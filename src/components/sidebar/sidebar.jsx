@@ -22,15 +22,15 @@ export default function Sidebar() {
 					<SiAffinitydesigner size={'20'} />
 					<Text fontSize={'sm'}>Designer</Text>
 				</HStack>
-				<HStack flexDirection={'column'}>
+				<HStack flexDirection={'column'} color={'white'}>
 					<BiCategory size={'25'} />
 					<Text fontSize={'sm'}>Elements</Text>
 				</HStack>
-				<HStack flexDirection={'column'}>
+				<HStack flexDirection={'column'} color={'white'}>
 					<BiText size={'25'} />
 					<Text fontSize={'sm'}>Text</Text>
 				</HStack>
-				<HStack flexDirection={'column'}>
+				<HStack flexDirection={'column'} color={'white'}>
 					<FaPaintBrush size={'25'} />
 					<Text fontSize={'sm'}>Paints</Text>
 				</HStack>

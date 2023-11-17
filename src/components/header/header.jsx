@@ -81,7 +81,7 @@ export default function Header() {
 					<Text display={{ base: 'none', lg: 'flex' }} fontSize={'xl'}>
 						Home
 					</Text>
-					<HStack gap={5} cursor={'pointer'}>
+					<HStack gap={5} cursor={'pointer'} color={'white'}>
 						<PiArrowBendDoubleUpLeftBold size={'28'} />
 						<PiArrowBendDoubleUpRightBold size={'28'} />
 					</HStack>
@@ -93,7 +93,7 @@ export default function Header() {
 				</Box>
 				<HStack gap={6}>
 					<Box w={'1px'} h={'50px'} mt={5} bg={'white'} display={{ base: 'none', xl: 'flex' }}></Box>
-					<HStack>
+					<HStack color={'white'}>
 						<Text display={{ base: 'none', lg: 'flex' }} fontSize={'xl'} fontWeight={'700'}>
 							Share
 						</Text>
